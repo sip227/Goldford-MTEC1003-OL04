@@ -16,10 +16,12 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
-
-
-
+(null)			Downloads		Public
+Applications		Library			PycharmProjects
+CmapToolsLogs		MacKeeper Backups	TestingProject
+Creative Cloud Files	Movies			get-pip.py
+Desktop			Music
+Documents		Pictures
 
 ==========
 2.  Type:
@@ -29,10 +31,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
-
-
+total 0
+drwxr-xr-x   5 faithfulwater  staff  160 Aug 30 15:07 Adobe
 
 ==========
 3.  Type:
@@ -42,10 +42,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
-
-
+.		.DS_Store	Adobe		Electronic Arts
+..		.localized	CELSYS		Max 8
 
 ==========
 4.  Type:
@@ -55,17 +53,14 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
-
-
-
+ls: doesnotexist: No such file or directory
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
 
 
-
+The Up arrow
 
 
 
@@ -73,28 +68,20 @@ Copy and paste the output below.
 6.  Name two flags that we used in this exercise.
 ----------
 
-
-
-
-
+-l
+-a
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
-
-
-
+ls
 
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
-
-
-
+Documents
 
 ==========
 9.  Type:
@@ -104,10 +91,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
-
-
-
+zsh: command not found: foo
 
 ==========
 10.  Type:
@@ -117,10 +101,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
-
-
-
+zsh: command not found: foo
 
 ==========
 11.  In the following line....
@@ -130,7 +111,10 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
+command: ls
+flag: -a
+argument: Desktop
+prompt: $
 
 
 
