@@ -128,22 +128,16 @@ Follow the instructions line-by-line.
 ==========
 
 ==========
-12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
+12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-
-
-
-
+mkdir mtec1003
 
 ==========
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
 
-
-
-
-
+cd mtec1003
 
 ==========
 14. Type:
@@ -157,10 +151,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
-
-
-
+/Users/faithfulwater/mtec1003
 
 ==========
 15. Type:
@@ -171,10 +162,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+animals
 
 ==========
 16. Type:
@@ -185,10 +173,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+animals	food
 
 ==========
 17. Type:
@@ -199,10 +184,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
-
-
+animals	foo	food
 
 ==========
 18. Type:
@@ -213,10 +195,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/faithfulwater/mtec1003/foo/bar/baz/qux
 
 ==========
 19. Type:
@@ -227,10 +206,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/faithfulwater/mtec1003/foo/bar
 
 ==========
 20. Type:
@@ -241,10 +217,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/faithfulwater/mtec1003/foo/bar/baz/qux
 
 ==========
 21. Type:
@@ -255,10 +228,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
-
+/Users/faithfulwater/mtec1003
 
 ==========
 22. Type:
@@ -270,10 +240,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
-
-
-
+total 0
+drwxr-xr-x  3 faithfulwater  staff  96 Aug 31 16:52 foo
+drwxr-xr-x  2 faithfulwater  staff  64 Aug 31 16:51 food
 
 ==========
 23. Type:
@@ -284,10 +253,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Users/faithfulwater
 
 ==========
 24. Type:
@@ -298,10 +264,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Volumes
 
 ==========
 25. Type:
@@ -312,24 +275,18 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Volumes
 
 ==========
 26. Type:
 
-$ cd ~/mtec1002
+$ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+/Users/faithfulwater/mtec1003
 
 ==========
 27. Type:
@@ -339,24 +296,18 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
-
-
-
+Stephanys-MacBook-Pro.local
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
-
-
-
+pwd
 
 ==========
 29. If you're not in the right directory, type the following command:
 
-cd ~/mtec1002
+cd ~/mtec1003
 
 Otherwise skip this question/step!
 ----------
@@ -380,7 +331,7 @@ Write the one command you used below:
 ----------
 
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 
@@ -390,10 +341,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
-
-
-
+mkdir aardvark
 
 ==========
 32. List the files and directories in the current directory using the long format.
@@ -401,10 +349,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
-
-
-
+Aug 31 17:11
 
 ==========
 33. Make 3 directories nested within each other:
@@ -416,10 +361,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
-
-
-
+mkdir -p foo/bar/baz
 
 ==========
 34. Change your directory so that you're in the inner most directory (baz)
@@ -427,10 +369,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
-
+cd foo/bar/baz
 
 ==========
 35. Change your directory so that you're two directories up (foo)
@@ -438,61 +377,43 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
-
+cd ../..
 
 ==========
 36. What command is used to delete empty directories?
 ----------
 
-
-
-
-
+rmdir 
 
 ==========
 37. What command is used to print out your current working directory?
 ----------
 
-
-
-
-
+pwd
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
-
-
-
+-a
 
 ==========
 39. What's the shortcut for home directory?
 ----------
 
-
-
-
-
+cd ~
 
 ==========
 40. What's a pathname?
 ----------
 
-
-
-
-
+The general form of the name of a file or a directory.
 
 ==========
 41. What is a directory?
 ----------
 
-
+It's a structure in a file system that organizes files.
 
 
 
@@ -500,3 +421,4 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/faithfulwater/Downloads
