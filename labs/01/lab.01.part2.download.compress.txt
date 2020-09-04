@@ -251,10 +251,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-
-
-
-
+a stuff
+a stuff/hello.txt
 
 ==========
 16. Now compress it! Type:
